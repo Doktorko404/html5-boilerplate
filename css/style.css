@@ -1,0 +1,47 @@
+/* color */
+/* font */
+/* line 1, ../scss/vendor/_font.scss */
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 5, ../scss/vendor/_font.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* line 8, ../scss/vendor/_font.scss */
+h1 {
+  font-size: 3.2rem;
+}
+
+/* line 11, ../scss/vendor/_font.scss */
+h2 {
+  font-size: 2.3rem;
+}
+
+/* line 14, ../scss/vendor/_font.scss */
+h3 {
+  font-size: 2rem;
+}
+
+/* line 17, ../scss/vendor/_font.scss */
+h4 {
+  font-size: 1.6rem;
+}
+
+/* line 20, ../scss/vendor/_font.scss */
+h5 {
+  font-size: 1.2rem;
+}
+
+/* line 23, ../scss/vendor/_font.scss */
+h6 {
+  font-size: 0.9rem;
+}
+
+/* line 26, ../scss/vendor/_font.scss */
+p, ul, a {
+  font-size: 1.6rem;
+}
