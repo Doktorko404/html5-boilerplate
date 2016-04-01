@@ -1,3 +1,4 @@
+/* Stylování fontů */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext);
 html{
 	font-size: 62.5%; // 16px == 1.6rem
@@ -8,22 +9,26 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
 	font-size: $base-font-size * 2;
+	line-height: $base-font-size * 2;
 }
 h2{
 	font-size: $base-font-size + 0.7;
+	line-height: $base-font-size + 0.7;
 }
 h3{
 	font-size: $base-font-size + 0.4;
+	line-height: $base-font-size + 0.4;
 }
-h4{
+h4,p,ul,a{
 	font-size: $base-font-size;
+	line-height: $base-font-size;
 }
 h5{
 	font-size: $base-font-size - 0.4;
+	line-height: $base-font-size - 0.4;
 }
 h6{
 	font-size: $base-font-size - 0.7;
-}
-p,ul,a{
-	font-size: $base-font-size;
+	line-height: $base-font-size - 0.7;
+
 }

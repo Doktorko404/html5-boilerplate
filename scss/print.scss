@@ -1,3 +1,14 @@
-/* Welcome to Compass. Use this file to define print styles.
- * Import this file using the following HTML or equivalent:
+/* Stylování pro tisk 
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "vendor/var";
+@import "vendor/font";
+
+main{
+	width: 100%;
+	margin: 0;
+	background-color: white;
+	article{
+		color: $black;
+	}
+}
